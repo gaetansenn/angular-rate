@@ -3,6 +3,8 @@ AngularJS Rate
 
 **Angular Rate** is an AngularJS rating directive.
 
+![rate example](https://raw.github.com/gaetansenn/angular-notifications-manager/master/rate.gif)
+
 ### Current Version 0.1.0
 
 # Getting stated
