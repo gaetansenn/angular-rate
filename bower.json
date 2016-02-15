@@ -1,0 +1,24 @@
+{
+  "name": "angular-rate",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Gaetan SENN",
+      "email": "gaetan.senn@gmail.com"
+    }
+  ],
+  "main": ["dist/angular-rate.js"],
+  "ignore": [
+    "src",
+    "test",
+    "gulpfile.js",
+    "karma-*.conf.js",
+    "**/.*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "angular-mocks": ">=1.2.0",
+    "angular-scenario": ">=1.2.0",
+    "angular": ">=1.2.0"
+  }
+}

@@ -1,0 +1,13 @@
+rate.form-control {
+  border: none;
+  box-shadow: none;
+  padding-left: 0;
+}
+rate #rates span.stars {
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+rate #rates.readonly > span.stars {
+  cursor: default;
+}

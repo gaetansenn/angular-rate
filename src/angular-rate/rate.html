@@ -1,0 +1,5 @@
+<div id="rates" ng-class="{ readonly : readonly }">
+	<span class="stars" ng-repeat="star in stars track by $index" ng-click="select($index + 1)" ng-mouseenter="starHover($index)" ng-mouseleave="restoreStars()">
+		<i class="fa" ng-class="{ '{{ fullIcon }}' : star === 'full', '{{ halfIcon }}': star === 'half', '{{ emptyIcon }}' : star === 'empty', '{{ otherClass }}': true }"></i>
+	</span>
+</div>

@@ -1,0 +1,29 @@
+{
+  "generator-angularjs-library": {
+    "props": {
+      "author": {
+        "name": "Gaetan SENN",
+        "email": "gaetan.senn@gmail.com"
+      },
+      "libraryName": {
+        "original": "angular-rate",
+        "camelized": "angularRate",
+        "dasherized": "angular-rate",
+        "slugified": "angular-rate",
+        "parts": [
+          "angular",
+          "rate"
+        ]
+      },
+      "includeModuleDirectives": true,
+      "includeModuleFilters": false,
+      "includeModuleServices": false,
+      "includeAngularModuleResource": false,
+      "includeAngularModuleCookies": false,
+      "includeAngularModuleSanitize": false,
+      "librarySrcDirectory": "src/angular-rate",
+      "libraryUnitTestDirectory": "test/unit/angular-rate",
+      "libraryUnitE2eDirectory": "test/e2e/angular-rate"
+    }
+  }
+}
