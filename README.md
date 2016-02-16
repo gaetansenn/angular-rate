@@ -9,6 +9,7 @@ AngularJS Rate
 
 # Getting stated
 Optionally: to install with bower, use:
+
 ```
 bower install --save angular-rate
 ```
@@ -16,9 +17,10 @@ bower install --save angular-rate
 # Add AngularJS Rate
 
 Add the module in your angular module.
-```
-angular.module('main', ['angularRate']);
 
+````javascript
+angular.module('main', ['angularRate']);
+````
 
 ## How to use
 
