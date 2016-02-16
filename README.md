@@ -5,7 +5,7 @@ AngularJS Rate
 
 ![rate example](https://raw.github.com/gaetansenn/angular-rate/master/rate.gif)
 
-### Current Version 0.1.0
+### Current Version 0.1.1
 
 # Getting stated
 Optionally: to install with bower, use:

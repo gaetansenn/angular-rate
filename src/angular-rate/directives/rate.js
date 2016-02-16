@@ -3,12 +3,15 @@
     .module('angularRate.directives')
     .directive('rate', function () {
       function _buildStars(scope, stars) {
-        scope.stars = _.map(_.range(5), function (index) {
-          if ((index + 1) <= Math.floor(stars)) {
-            return 'full';
+        scope.stars = [];
+
+        for (var i = 0; i < 5; i++) {
+          if ((i + 1) <= Math.floor(stars)) {
+            scope.stars.push('full');
+          } else {
+            scope.stars.push((stars % 1 > 0 && i === Math.floor(stars)) ? 'half' : 'empty');
           }
-          return (stars % 1 > 0 && index === Math.floor(stars)) ? 'half' : 'empty';
-        });
+        }
       }
 
       return {
